@@ -1,0 +1,72 @@
+﻿
+> abby@0.1.0 lint
+> next lint
+
+node.exe : 
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+./src/app/(auth)/SignIn/page.tsx
+154:18  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  
+react/no-unescaped-entities
+
+./src/app/[userId]/chat/page.tsx
+12:13  Error: 'userId' is assigned a value but never used.  
+@typescript-eslint/no-unused-vars
+13:40  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+14:45  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+15:39  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+
+./src/components/chat/ChatInput.tsx
+15:44  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+51:20  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+64:14  Error: 'e' is defined but never used.  @typescript-eslint/no-unused-vars
+66:40  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+94:36  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+
+./src/components/chat/ChatMessages.tsx
+9:38  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+10:39  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+11:38  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+55:42  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  
+react/no-unescaped-entities
+62:16  Error: `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`.  
+react/no-unescaped-entities
+
+./src/components/Hero.tsx
+1:1  Warning: Unused eslint-disable directive (no problems were reported from 
+'@typescript-eslint/no-explicit-any').
+
+./src/components/magicui/pointer.tsx
+13:11  Error: An interface declaring no members is equivalent to its supertype.  
+@typescript-eslint/no-empty-object-type
+
+./src/components/magicui/scroll-progress.tsx
+6:11  Error: An interface declaring no members is equivalent to its supertype.  
+@typescript-eslint/no-empty-object-type
+
+./src/hooks/useThemeProvider.tsx
+14:36  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+
+./src/lib/store/zustand.ts
+19:13  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+209:21  Error: Unexpected any. Specify a different type.  
+@typescript-eslint/no-explicit-any
+
+info  - Need to disable some ESLint rules? Learn more here: 
+https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules

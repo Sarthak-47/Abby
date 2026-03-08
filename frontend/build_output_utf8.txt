@@ -1,0 +1,37 @@
+﻿
+> abby@0.1.0 build
+> next build
+
+   Γû▓ Next.js 15.2.4
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+/*! ≡ƒî╝ daisyUI 5.0.11 */
+ Γ£ô Compiled successfully
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ Γ£ô Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+Γöî Γùï /                                    13.2 kB         199 kB
+Γö£ Γùï /_not-found                            986 B         102 kB
+Γö£ ╞Æ /[userId]/chat                       5.51 kB         230 kB
+Γö£ ╞Æ /[userId]/progress                    103 kB         328 kB
+Γö£ Γùï /SignIn                              2.27 kB         224 kB
+Γöö Γùï /SignUp                              2.31 kB         224 kB
++ First Load JS shared by all             101 kB
+  Γö£ chunks/4bd1b696-d1e49cf336713d68.js  53.3 kB
+  Γö£ chunks/684-8d6af051b35aceeb.js       45.8 kB
+  Γöö other shared chunks (total)          1.99 kB
+
+
+Γùï  (Static)   prerendered as static content
+╞Æ  (Dynamic)  server-rendered on demand
+
