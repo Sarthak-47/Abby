@@ -1,6 +1,6 @@
 # Abby
 
-Abby is an AI-powered mental wellness application designed to provide accessible, anonymous, and meaningful therapeutic support. By engaging users in reflective conversations, Abby helps track emotional progress and build stronger coping strategies—all from the comfort of their devices, utilizing state-of-the-art AI models.
+Abby is an AI-powered mental wellness application designed to provide accessible, anonymous, and meaningful therapeutic support. By engaging users in reflective conversations, Abby helps track emotional progress and build stronger coping strategies all from the comfort of their devices, utilizing state-of-the-art AI models.
 
 ---
 
